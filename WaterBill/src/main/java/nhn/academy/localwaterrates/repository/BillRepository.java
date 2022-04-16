@@ -1,4 +1,4 @@
-package nhn.academy.local_water_rates.repository;
+package nhn.academy.localwaterrates.repository;
 
 public interface BillRepository {
     void load(String path);

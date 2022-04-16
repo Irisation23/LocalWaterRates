@@ -1,6 +1,6 @@
-package nhn.academy.local_water_rates.repository;
+package nhn.academy.localwaterrates.repository;
 
-public class Normal_BillRepository implements BillRepository {
+public class NormalBillRepository implements BillRepository {
     @Override
     public void load(String path) {
 

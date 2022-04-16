@@ -1,6 +1,6 @@
-package nhn.academy.local_water_rates.service;
+package nhn.academy.localwaterrates.service;
 
-public interface WaterUsesRatesService {
+public interface WaterUsageRatesService {
     void load(String path);
     void findWaterAmountsAccordingToUsage(int waterUsageAmounts);
 }

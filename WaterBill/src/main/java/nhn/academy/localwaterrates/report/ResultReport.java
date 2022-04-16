@@ -1,4 +1,4 @@
-package nhn.academy.local_water_rates.report;
+package nhn.academy.localwaterrates.report;
 
 public interface ResultReport {
     void report(String data);

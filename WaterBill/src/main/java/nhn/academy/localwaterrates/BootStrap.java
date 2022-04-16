@@ -1,4 +1,4 @@
-package nhn.academy.local_water_rates;
+package nhn.academy.localwaterrates;
 
 public class BootStrap {
 
