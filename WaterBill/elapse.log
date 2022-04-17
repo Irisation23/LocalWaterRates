@@ -1,0 +1,70 @@
+23:08:35.619 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'parse': running time = 304936000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+304936000  100%  parse
+
+23:08:35.624 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'loadBills': running time = 336517600 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+336517600  100%  loadBills
+
+23:09:26.267 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'parse': running time = 483040800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+483040800  100%  parse
+
+23:09:26.273 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'loadBills': running time = 520272800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+520272800  100%  loadBills
+
+23:10:37.794 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'parse': running time = 455914800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+455914800  100%  parse
+
+23:10:37.799 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'loadBills': running time = 489347000 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+489347000  100%  loadBills
+
+23:11:55.718 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'findAllBills': running time = 93800 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000093800  100%  findAllBills
+
+23:11:55.723 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'find5CitiesWaterBillByWaterUsageRates': running time = 15606400 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+015606400  100%  find5CitiesWaterBillByWaterUsageRates
+
+23:11:55.758 [main] INFO  c.n.l.report.NormalResultReport - 
+WaterBill{city=' 고령군', sector='공업용', unitPrice=370, billTotal=370000 }
+WaterBill{city=' 통영시', sector='원정수판매용', unitPrice=413, billTotal=413000 }
+WaterBill{city=' 금산군', sector='정수용', unitPrice=433, billTotal=433000 }
+WaterBill{city=' 나주시', sector='임시용(상)', unitPrice=433, billTotal=433000 }
+WaterBill{city=' 장흥군', sector='임시용(상)', unitPrice=433, billTotal=433000 }
+
+23:11:55.759 [main] INFO  c.n.l.aspect.LoggerAspect - 
+StopWatch 'report': running time = 35161500 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+035161500  100%  report
+
